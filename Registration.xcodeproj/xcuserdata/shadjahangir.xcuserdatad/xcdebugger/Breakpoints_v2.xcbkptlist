@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Registration/Styles.swift"
-            timestampString = "446345977.171726"
+            timestampString = "446347125.928495"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30">
+            startingLineNumber = "26"
+            endingLineNumber = "26">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Registration/Styles.swift"
+            timestampString = "446347569.643567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "init(coder:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
