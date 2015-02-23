@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var email: CustomTextField!
     @IBOutlet var password: CustomTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        func invalidateIntrinsicContentSize() {
+        }
+
         
         //setting placeholder value and colour
         email.attributedPlaceholder = NSAttributedString(string:"Email",
@@ -26,7 +30,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

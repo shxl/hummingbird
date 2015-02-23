@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47AB8BD11A9B887200424180 /* hummingbirdsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 47AB8BD01A9B887200424180 /* hummingbirdsquare.png */; };
 		47E0908E1A978F9E00860C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0908D1A978F9E00860C0B /* AppDelegate.swift */; };
 		47E090911A978F9E00860C0B /* Registration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E0908F1A978F9E00860C0B /* Registration.xcdatamodeld */; };
 		47E090931A978F9E00860C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E090921A978F9E00860C0B /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		47E090981A978F9E00860C0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E090971A978F9E00860C0B /* Images.xcassets */; };
 		47E0909B1A978F9E00860C0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E090991A978F9E00860C0B /* LaunchScreen.xib */; };
 		47E090A71A978F9E00860C0B /* RegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E090A61A978F9E00860C0B /* RegistrationTests.swift */; };
-		47E090B31A9A51D300860C0B /* Hummingbird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E090B21A9A51D300860C0B /* Hummingbird2.png */; };
 		47E090B51A9A55DF00860C0B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E090B41A9A55DF00860C0B /* Styles.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47AB8BD01A9B887200424180 /* hummingbirdsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hummingbirdsquare.png; sourceTree = "<group>"; };
 		47E090881A978F9E00860C0B /* Registration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E0908C1A978F9E00860C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47E0908D1A978F9E00860C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		47E090A01A978F9E00860C0B /* RegistrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E090A51A978F9E00860C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47E090A61A978F9E00860C0B /* RegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTests.swift; sourceTree = "<group>"; };
-		47E090B21A9A51D300860C0B /* Hummingbird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hummingbird2.png; sourceTree = "<group>"; };
 		47E090B41A9A55DF00860C0B /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +86,8 @@
 				47E0908D1A978F9E00860C0B /* AppDelegate.swift */,
 				47E090921A978F9E00860C0B /* ViewController.swift */,
 				47E090941A978F9E00860C0B /* Main.storyboard */,
+				47AB8BD01A9B887200424180 /* hummingbirdsquare.png */,
 				47E090B41A9A55DF00860C0B /* Styles.swift */,
-				47E090B21A9A51D300860C0B /* Hummingbird2.png */,
 				47E090971A978F9E00860C0B /* Images.xcassets */,
 				47E090991A978F9E00860C0B /* LaunchScreen.xib */,
 				47E0908F1A978F9E00860C0B /* Registration.xcdatamodeld */,
@@ -203,8 +203,8 @@
 			files = (
 				47E090961A978F9E00860C0B /* Main.storyboard in Resources */,
 				47E0909B1A978F9E00860C0B /* LaunchScreen.xib in Resources */,
+				47AB8BD11A9B887200424180 /* hummingbirdsquare.png in Resources */,
 				47E090981A978F9E00860C0B /* Images.xcassets in Resources */,
-				47E090B31A9A51D300860C0B /* Hummingbird2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

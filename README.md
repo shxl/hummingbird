@@ -4,6 +4,9 @@ Placeholder iOS client for Hummingbird.
 
 Currently working on:
 
-* Autolayout to work on devices from 4S upwards. 6 & 6+ are working fine. 
+* ResignFirstResponder on return key for CustomClasses.
 * Validating shit bruh
 
+Done:
+
+* Autolayout to work on dveices from 4S upwards.
