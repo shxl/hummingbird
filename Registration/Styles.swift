@@ -42,3 +42,4 @@ class CustomButton: UIButton {
 }
 
 
+//setting placeholder value and colour
