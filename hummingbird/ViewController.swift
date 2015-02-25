@@ -25,13 +25,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Setting delegates to textfields
         email.delegate = self
         password.delegate = self
-
     }
     
     //  Resign keyboard on return key
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        email.resignFirstResponder()
-        password.resignFirstResponder()
+        if(textField == email) {
+            password.becomeFirstResponder()
+        }
+        else {
+            password.resignFirstResponder()
+        }
         return true;
     }
     
